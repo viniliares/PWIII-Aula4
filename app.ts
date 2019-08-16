@@ -1,12 +1,12 @@
-class Aluno{
-    constructor(public nome:string){}
-    exibir(){
-        console.log("Nome:"+this.nome)
-    }
-}
+//class Aluno{
+//    constructor(public nome:string){}
+//    exibir(){
+//        console.log("Nome:"+this.nome)
+//    }
+//}
 
+import {Alu} from "./base-escola"
 
-
-let ronqui = new Aluno("Rafel Ronqui")
+let ronqui = new Alu("Rafel Ronqui")
 
 ronqui.exibir()
